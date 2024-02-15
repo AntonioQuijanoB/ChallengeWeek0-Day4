@@ -37,3 +37,14 @@ export function allVocal(str) {
 console.log(allVocal('murcielago'));
 
 /*6. Crea una función que realice una cuenta atrás desde un número recibido por parámetros.*/
+/*7. Escribe una función que reciba por parámetros el año de nacimiento, y calcule la edad de la persona.*/
+/*8. Crea una función que reciba la edad de una persona por parámetros y verifique si es mayor de edad. Imprime por consola un string con el resultado.*/
+export function oldMayor(str) {
+  if (str >= 18) {
+    return `is over 18`;
+  }
+  return 'mierdsaa saecs';
+}
+console.log(oldMayor(10));
+
+/*9. Crea una función que simule el lanzamiento de un dado e imprime por consola el resultado cada vez que se ejecuta.*/
